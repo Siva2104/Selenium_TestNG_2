@@ -19,7 +19,7 @@ public class annotations {
 	       options.addArguments("start-maximized");
 	       options.addArguments("disable-infobars");
 		driver = new ChromeDriver(options);
-		driver.get("https://10.11.144.178:8010/Home/Login/0");
+		
 		driver.manage().window().maximize();
 		System.out.println("BeforeTest Executed");
 	}
