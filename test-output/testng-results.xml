@@ -2,16 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T15:51:52 IST" name="Default suite" finished-at="2024-01-11T15:51:56 IST" duration-ms="3834">
+  <suite started-at="2024-09-09T15:22:08 IST" name="Suite" finished-at="2024-09-09T15:22:16 IST" duration-ms="8115">
     <groups>
     </groups>
-    <test started-at="2024-01-11T15:51:52 IST" name="Default test" finished-at="2024-01-11T15:51:56 IST" duration-ms="3834">
-      <class name="maven_project.AKB_Login">
-        <test-method signature="browser()[pri:0, instance:maven_project.AKB_Login@18df8434]" started-at="2024-01-11T15:51:52 IST" name="browser" description="Lauching the Browser" finished-at="2024-01-11T15:51:56 IST" duration-ms="3790" status="PASS">
+    <test started-at="2024-09-09T15:22:08 IST" name="Test" finished-at="2024-09-09T15:22:16 IST" duration-ms="8115">
+      <class name="maven_project.annotations">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:maven_project.annotations@1c5920df]" started-at="2024-09-09T15:22:08 IST" name="setUp" finished-at="2024-09-09T15:22:12 IST" duration-ms="4747" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser -->
-      </class> <!-- maven_project.AKB_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="titleTest()[pri:0, instance:maven_project.annotations@1c5920df]" started-at="2024-09-09T15:22:12 IST" name="titleTest" finished-at="2024-09-09T15:22:12 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:maven_project.annotations@1c5920df]" started-at="2024-09-09T15:22:12 IST" name="logintest" finished-at="2024-09-09T15:22:16 IST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1927538]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS#1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- maven_project.annotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

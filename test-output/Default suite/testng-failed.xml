@@ -5,7 +5,7 @@
     <classes>
       <class name="maven_project.AKB_Login">
         <methods>
-          <include name="browser"/>
+          <include name="browser" invocation-numbers="1"/>
         </methods>
       </class> <!-- maven_project.AKB_Login -->
     </classes>
